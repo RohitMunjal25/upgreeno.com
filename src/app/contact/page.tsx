@@ -106,14 +106,7 @@ export default function ContactPage() {
               <textarea className="min-h-[180px] rounded-2xl border border-current/10 bg-transparent px-4 py-3 text-sm" placeholder="Share the full context so we can respond with the right next step." />
               <button type="submit" className={`inline-flex h-12 items-center justify-center rounded-full px-6 text-sm font-semibold ${tone.action}`}>Send message</button>
             </form>
-            <div className="mt-6 pt-6 border-t border-current/10">
-              <p className="text-sm font-medium">Or email us directly</p>
-              <a href={`mailto:${contactEmail}`} className="mt-3 inline-flex items-center gap-2 rounded-full bg-[#e67e22] px-5 py-3 text-sm font-semibold text-white hover:bg-[#d35400] transition-colors">
-                <Mail className="h-4 w-4" />
-                {contactEmail} <ArrowRight className="h-4 w-4" />
-              </a>
-            </div>
-          </div>
+                      </div>
         </section>
       </main>
       <Footer />
